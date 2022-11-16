@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./emp.component.scss']
 })
 export class EmpComponent implements OnInit {
+  employees:any = []
 
   constructor() { }
 
   ngOnInit(): void {
+  this.employees= 
+  [
+    {id :1 ,name:"Varga Jáno$" , city :"Szelevény" },
+    {id :2 ,name:"Drága Nagyfiam" , city :"Győr" },
+    {id :3 ,name:"ASD" , city :"Szeged" }
+  ]
   }
 
 }
