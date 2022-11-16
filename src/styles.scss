@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap";
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&display=swap');
+*
+{
+        font-family: 'Blaka Ink', cursive;
+    font-family: 'Bungee Spice', cursive;
+   
+ 
+}
+.nav-link{
+    background-color: #47b5ff;
+    border-radius: 10px ;
+    box-shadow: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+
+
+}
